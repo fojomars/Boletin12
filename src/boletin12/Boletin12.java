@@ -15,7 +15,18 @@ public class Boletin12 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        // EJEMPLO 1
+        Garaje parking = new Garaje();
+        parking.setObxCoche("Volkswagen","8952 KTY");
+        parking.comprobarPlazas();
+        parking.visualizarFactura();
+        
+        // EJEMPLO 2
+        Garaje parking2 =new Garaje(0);
+        parking2.setObxCoche("Opel","4164 GIK");
+        parking2.comprobarPlazas();
+        parking2.visualizarFactura();
+        
     }
     
 }
